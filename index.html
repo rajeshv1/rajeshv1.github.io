@@ -5,23 +5,214 @@
             Rajesh
         </title>
         <link rel="icon" type="image/icon" href="../rajeshv1.github.io/photo/rajeshicon.png.jpeg">
+        <style>
+            #ab {
+                border: 1px solid black;
+                margin-bottom: 50px;
+                height: 60px;
+                background-color:red;
+                position: fixed; 
+                width: 100%;
+            }
+            #iconic {
+                /* border: 1px solid black; */
+                border-radius: 30px;
+                background-image: url("./photo/iconpic.png.jpg");   
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-left: -110px;
+                padding-top: 3px;   
+                padding-left: 60px;
+                padding-right: -70px;
+                padding-bottom: 35px;
+                outline: none;      
+            }
+            #iconic:hover {
+                opacity: 0.8;
+            }
+            #partition {
+                border-left: 1px solid black;
+                height: 50px;
+                margin-left: -40px;
+            }
+            #rajesh {
+                /* border: 1px solid black; */
+                margin-left: -30px;
+                margin-top: -16px;
+            }
+            .a {
+                margin-top: -40px;
+            }
+            #a {
+                float: left;
+                margin-top: -10px;
+                margin-left: 80px;
+                display: inline;
+            }
+            #a > ul li {
+                list-style: none;
+                float: left;
+            }
+            #b {
+                float: right;
+            }
+            #b > ul li {
+                list-style: none;
+                float: left;
+                margin-left: 10px;
+            }
+            li {
+                /* list-style: none;
+                display: inline;
+                margin: 5px; */
+            }
+            #d {
+                border: 1px solid black;
+                border-radius: 30px;
+                margin-top: -220px;
+                padding: 5px;
+                background-color:darkturquoise;
+                display: block;
+                height: 280px;
+                width: 185px;
+                float: right;
+                margin-right: 2px;
+            }
+            #d:hover {
+                background-color: yellow;
+                opacity: 0.5px;
+            }
+            #applications {
+                color: black;
+                border-radius: 50px;
+            }
+            #applications:hover {
+                color:red;
+            }
+            .rounded img {
+                background-image: url("./photo/me2.jpg");
+                height: 200px;
+                width: 200px;
+                display: inline;
+                border-radius: 50%;
+                margin-top: 100px;
+            }
+            #biodata {
+                /* border:1px solid black; */
+                background-image: url("./photo/biodataimage.png.webp");
+                background-size: contain;
+                background-repeat: no-repeat;
+                padding-top: 10px;
+                padding-bottom: 18px;
+                padding-left: 30px;
+                padding-right: 15px;
+                margin-top: -20px;     
+            }
+            #biodata:hover {
+                opacity: 0.8;
+            }
+            #insta {
+                /* border:1px solid black; */
+                background-image: url("./photo/instagram-logos-png.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                padding-top: 12px;
+                padding-left: 30px;
+                padding-bottom: 70px;
+                padding-right: 20px;   
+            }
+            #insta:hover {
+                opacity: 0.8;
+            }
+            #e-mail {
+                /* border: 1px solid black; */
+                background-image: url("./photo/email image.jpg");
+                background-size: contain;
+                background-repeat: no-repeat;
+                padding-top: 8px;
+                padding-left: 30px;
+                padding-bottom: 70px;
+                padding-right: 20px;
+            }
+            #e-mail:hover {
+                opacity: 0.8;
+            }
+            #gallery {
+                 /* border: 1px solid black; */
+                 background-image: url("./photo/download.jpg");
+                background-size: contain;
+                background-repeat: no-repeat;
+                padding-top: 10px;
+                padding-left: 25px;
+                padding-bottom: 50px;
+                padding-right: 20px;
+            }
+            #gallery:hover {
+                opacity: 0.8;
+            }
+            body {
+                background-color:darkturquoise;
+                margin: 0px auto;
+                padding: 0px;
+            }
+        </style>
     </head>
-    <body>
-        <h1>Rajesh:-</h1>
-        <img src="./photo/me2.jpg" height="200" weight="100">
-        <a href="./biodata.html"><br>
-            Biodata
-        </a>
-        <a href="./gallery.html">
-            Gallery
-        </a>
-        <a href="https://www.instagram.com/rajeshvermagcs" target="_blank"><br>
-            check me out on instagram
-        </a>
-        <a href="mailto:rajeshvermaphysics@gmail.com"><br>
-            E-mail me
-        </a>
-        <h2>My Applications:-</h2>
-        1.<a href="../calculator/index.html">calculator</a>
-        </body>
+    <body> 
+        <div id="ab">
+            <div id="a">
+                <ul>
+                    <li>
+                        <a href="/"  id="iconic"></a>     
+                    </li>
+                    <li id="partition">
+                        <div></div>
+                    </li>
+                    <li  id="rajesh">
+                        <h1>
+                            Rajesh
+                        </h1>
+                    </li>
+                </ul>
+            </div>
+            <div id="b">
+                <ul>
+                    <li>
+                        <a href="./biodata.html" class="a" id="biodata">   
+                        </a>
+                    </li>   
+                    <li>
+                        <a href="./gallery.html" class="a" id="gallery">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/rajeshvermagcs" target="_blank" class="a" id="insta">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:rajeshvermaphysics@gmail.com" class="a" id="e-mail">
+                        </a>
+                    </li>
+                </ul>             
+            </div>
+        </div>
+        <div class="rounded">
+            <a href="/">
+                <img src="./photo/me2.jpg">
+            </a>
+        </div>
+        <div id="d">
+            <h2>My Applications:-</h2>
+            <a href="../calculator/index.html" id="applications">
+                1.calculator
+            </a> 
+        </div>
+        <div>
+            <h3>
+                About me:-
+            </h3>
+            <p>
+               Hello guys myself rajesh verma  i want to learn programming because i m very interested in programmig.So, nowadays i m learning programming for making different-different types of website.
+            </p>
+        </div>
+    </body>
 </html>
